@@ -1,0 +1,45 @@
+.container{
+  margin-left: 30px;
+  background-color: rgb(247, 247, 247);
+  padding: 15px 10px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+.container h3{
+  font-weight: bold;
+  font-size: 20px;
+}
+.container h4{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.display_name{
+  font-size: 16px;
+  margin-top: 10px;
+  display: inline-block;
+  font-weight: bold;
+}
+.shared_name{
+  display: inline-block;
+  font-style: italic;
+}
+.container h6{
+  cursor: pointer;
+  font-size: 13px;
+  color: blue;
+  text-decoration: underline;
+}
+.description{
+  font-size: 13px;
+  line-height: 14px;
+  margin-top: 5px;
+}
+.interaction{
+  margin-top: 9px;
+  font-size: 15px;
+}
+.nodeName{
+  display: inline-block;
+  font-weight: bold;
+}
