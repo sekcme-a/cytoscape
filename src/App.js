@@ -1,4 +1,4 @@
-import "./app.css"
+import style from "./styles/app.module.css"
 import React, { useState, useEffect } from "react"
 import Data from './api/data.json'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
@@ -11,8 +11,8 @@ function App() {
     <div>
       <BrowserRouter>
       <Link to="/">
-        <h1 className="title">Biological Network Visualization</h1>
-        <h2 className="subtitle">BRCA proteins</h2>
+        <h1 className={style.title}>Biological Network Visualization</h1>
+        <h2 className={style.subtitle}>BRCA proteins</h2>
       </Link>
         <Routes>
           <Route path="/" element={<Search />}></Route>
